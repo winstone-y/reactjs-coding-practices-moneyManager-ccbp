@@ -42,12 +42,23 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #ecfccb;
-    border: 1px solid #84cc16;
     border-radius: 15px;
     padding: 15px;
     width: 32%;
   }
+  .l1 {
+    background-color: #ecfccb;
+    border: 1px solid #84cc16;      
+  }
+  .l2 {
+    background-color: #cffafe;
+    border: 1px solid #06b6d4;
+  }
+  .l3 {
+    background-color: #ede9fe;
+    border: 1px solid #7c3aed;
+  }
+
   .money-details-list-item-icon {
     height: 80px;
   }
