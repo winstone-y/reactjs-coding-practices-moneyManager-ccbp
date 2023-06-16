@@ -222,23 +222,21 @@ class MoneyManager extends Component {
           </div>
           <div className="history">
             <h1 className="history-title">History</h1>
-            <table className="history-table">
-              <tbody>
-                <tr className="history-table-row">
-                  <th className="history-table-row">Title</th>
-                  <th className="history-table-row">Amount</th>
-                  <th className="history-table-row">Type</th>
-                  <th className="history-table-row">{}</th>
-                </tr>
-                {historyList.map(eachItem => (
-                  <TransactionItem
-                    key={eachItem.id}
-                    eachItem={eachItem}
-                    onDelete={this.onDelete}
-                  />
-                ))}
-              </tbody>
-            </table>
+            <ul className="history-table">
+              <li className="history-table-row">
+                <p className="history-table-row-item">Title</p>
+                <p className="history-table-row-item">Amount</p>
+                <p className="history-table-row-item">Type</p>
+                <p className="history-table-row-btn-item">{}</p>
+              </li>
+              {historyList.map(eachItem => (
+                <TransactionItem
+                  key={eachItem.id}
+                  eachItem={eachItem}
+                  onDelete={this.onDelete}
+                />
+              ))}
+            </ul>
           </div>
         </div>
       </div>

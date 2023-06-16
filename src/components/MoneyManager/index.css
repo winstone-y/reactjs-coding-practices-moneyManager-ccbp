@@ -48,7 +48,7 @@
   }
   .l1 {
     background-color: #ecfccb;
-    border: 1px solid #84cc16;      
+    border: 1px solid #84cc16;
   }
   .l2 {
     background-color: #cffafe;
@@ -126,14 +126,35 @@
     margin-bottom: 10px;
   }
   .history-table {
-    border-collapse: collapse;
+    border: 1px solid #dddddd;
     width: 100%;
+    padding-left: 0;
+    list-style-type: none;
   }
-
   .history-table-row {
     border: 1px solid #dddddd;
     text-align: left;
     padding: 8px;
+    width: 100%;
+    border-collapse: collapse;
+    display: flex;
+    justify-content: space-between;
+  }
+  .history-table-row-item {
+    margin: 0;
+    width: 100%;
+  }
+    .history-table-row-btn-item {
+    margin: 0;
+    width: 30%;
+  }
+  .history-table-row {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    display: flex;
+    width: 100%;
+    border-collapse: collapse;
   }
   .delete-button {
     background-color: transparent;

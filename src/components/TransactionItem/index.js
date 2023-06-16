@@ -5,11 +5,11 @@ const TransactionItem = props => {
     onDelete(id)
   }
   return (
-    <tr className="history-table-row">
-      <td className="history-table-row">{title}</td>
-      <td className="history-table-row">Rs {amount}</td>
-      <td className="history-table-row">{displayText}</td>
-      <td className="history-table-row">
+    <li className="history-table-row">
+      <p className="history-table-row-item">{title}</p>
+      <p className="history-table-row-item">Rs {amount}</p>
+      <p className="history-table-row-item">{displayText}</p>
+      <p className="history-table-row-btn-item">
         <button
           data-testid="delete"
           onClick={onDeleteBtn}
@@ -22,8 +22,8 @@ const TransactionItem = props => {
             src="https://assets.ccbp.in/frontend/react-js/money-manager/delete.png"
           />
         </button>
-      </td>
-    </tr>
+      </p>
+    </li>
   )
 }
 export default TransactionItem
