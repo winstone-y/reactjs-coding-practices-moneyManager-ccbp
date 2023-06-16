@@ -1,0 +1,134 @@
+/* Write your CSS here */
+@media only screen and (max-width: 767px) {
+}
+
+@media only screen and (min-width: 768px) {
+  .money-manager-bg {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 50px;
+    gap: 25px;
+    font-family: 'Roboto';
+  }
+  .welcome-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+    background-size: cover;
+    border-radius: 15px;
+    padding: 15px;
+    color: #475569;
+  }
+  .welcome-title {
+    font-size: 32px;
+  }
+  .welcome-description {
+    font-size: 18px;
+  }
+  .welcome-span {
+    color: #0b69ff;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  .money-details-unordered-list {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-left: 0;
+    color: #475569;
+    width: 100%;
+  }
+  .money-details-list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ecfccb;
+    border: 1px solid #84cc16;
+    border-radius: 15px;
+    padding: 15px;
+    width: 32%;
+  }
+  .money-details-list-item-icon {
+    height: 80px;
+  }
+  .money-details-list-item-text {
+    margin-left: 10px;
+    width: 67%;
+  }
+  .money-details-list-item-title {
+    margin: 0;
+  }
+  .money-details-list-item-value {
+    margin: 0;
+    font-size: 26px;
+  }
+  .transaction-and-history {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 25px;
+    color: #7e858e;
+  }
+  .transaction {
+    border: 1px solid #475569;
+    padding: 25px;
+    border-radius: 15px;
+    width: 35%;
+  }
+  .form-title {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  .transaction-form {
+  }
+  .form-title-label {
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+  .form-title-input {
+    width: 100%;
+    height: 35px;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  .form-title-input-option {
+    font-size: 16px;
+  }
+  .form-submit {
+    background-color: #0b69ff;
+    padding: 10px;
+    width: 70px;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    font-size: 16px;
+    outline: none;
+  }
+  .history {
+    border: 1px solid #475569;
+    padding: 25px;
+    border-radius: 15px;
+    width: 63%;
+  }
+  .history-title {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+  .history-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .history-table-row {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  .delete-button {
+    background-color: transparent;
+    border: none;
+  }
+  .delete-icon {
+    height: 15px;
+  }
+}
