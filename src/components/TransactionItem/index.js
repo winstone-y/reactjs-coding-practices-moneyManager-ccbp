@@ -7,10 +7,15 @@ const TransactionItem = props => {
   return (
     <tr className="history-table-row">
       <td className="history-table-row">{title}</td>
-      <td className="history-table-row">{amount}</td>
+      <td className="history-table-row">Rs {amount}</td>
       <td className="history-table-row">{displayText}</td>
       <td className="history-table-row">
-        <button onClick={onDeleteBtn} type="button" className="delete-button">
+        <button
+          data-testid="delete"
+          onClick={onDeleteBtn}
+          type="button"
+          className="delete-button"
+        >
           <img
             className="delete-icon"
             alt="delete"

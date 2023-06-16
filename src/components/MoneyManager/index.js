@@ -116,12 +116,12 @@ class MoneyManager extends Component {
               />
               <div className="money-details-list-item-text">
                 <p className="money-details-list-item-title">Your Balance</p>
-                <h1
+                <p
                   data-testid="balanceAmount"
                   className="money-details-list-item-value"
                 >
                   Rs {balance}
-                </h1>
+                </p>
               </div>
             </li>
             <li className="money-details-list-item">
@@ -132,12 +132,12 @@ class MoneyManager extends Component {
               />
               <div className="money-details-list-item-text">
                 <p className="money-details-list-item-title">Your Income</p>
-                <h1
+                <p
                   data-testid="incomeAmount"
                   className="money-details-list-item-value"
                 >
                   Rs {income}
-                </h1>
+                </p>
               </div>
             </li>
             <li className="money-details-list-item">
@@ -148,12 +148,12 @@ class MoneyManager extends Component {
               />
               <div className="money-details-list-item-text">
                 <p className="money-details-list-item-title">Your Expenses</p>
-                <h1
+                <p
                   data-testid="expensesAmount"
                   className="money-details-list-item-value"
                 >
                   Rs {expenses}
-                </h1>
+                </p>
               </div>
             </li>
           </ul>
