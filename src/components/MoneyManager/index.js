@@ -107,8 +107,8 @@ class MoneyManager extends Component {
           </p>
         </div>
         <div className="money-details">
-          <ul className="money-details-unordered-list">
-            <li className="money-details-list-item l1">
+          <div className="money-details-unordered-list">
+            <div className="money-details-list-item l1">
               <img
                 className="money-details-list-item-icon"
                 alt="balance"
@@ -123,8 +123,8 @@ class MoneyManager extends Component {
                   Rs {balance}
                 </p>
               </div>
-            </li>
-            <li className="money-details-list-item l2">
+            </div>
+            <div className="money-details-list-item l2">
               <img
                 className="money-details-list-item-icon"
                 alt="income"
@@ -139,8 +139,8 @@ class MoneyManager extends Component {
                   Rs {income}
                 </p>
               </div>
-            </li>
-            <li className="money-details-list-item l3">
+            </div>
+            <div className="money-details-list-item l3">
               <img
                 className="money-details-list-item-icon"
                 alt="expenses"
@@ -155,8 +155,8 @@ class MoneyManager extends Component {
                   Rs {expenses}
                 </p>
               </div>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
         <div className="transaction-and-history">
           <div className="transaction">

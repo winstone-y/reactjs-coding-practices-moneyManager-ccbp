@@ -32,9 +32,8 @@
   }
   .money-details-unordered-list {
     display: flex;
-    justify-content: space-between;
-    list-style-type: none;
-    padding-left: 0;
+    justify-content: space-between;    
+    
     color: #475569;
     width: 100%;
   }
